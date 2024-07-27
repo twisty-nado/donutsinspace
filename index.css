@@ -1,0 +1,136 @@
+/* Website */
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: url("img/20240707_154316.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 200%;
+    margin: 0;
+}
+
+.Audiowide {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Inconsolata {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Rectangle 1 */
+
+.mainContent{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    left: calc(50% - 90%/2);
+    top: calc(50% - 30%/2);
+
+    text-align: center;
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    display: flex;
+
+    background: rgba(14, 73, 14, 0.62);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 54px;
+}
+
+
+/* pr0grammer_12’s Site */
+
+.mainText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 82px;
+    display: block;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+
+    color: #00FF00;
+
+    -webkit-text-stroke: 2px #007800;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Welcome to pain, in one website. */
+
+.secondaryText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    display: block;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+
+    color: #00FF00;
+
+    -webkit-text-stroke: 2px #007800;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Ello, im pr0grammer_12, AKA Twisty Nado. This is the new version of my site (R.I.P TWISTYNADO.COM) I ain’t paying $47.22 for a renewal. So, we got this instead! This time, I only spent 55 cents. */
+
+.contentText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    display: block;
+    align-items: center;
+    text-align: center;
+
+    color: #00FF00;
+    
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ^ Scroll up to view full image ^ */
+
+.scrollText{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    display: block;
+    align-items: center;
+    text-align: center;
+
+    color: #00FF00;
+
+    position: absolute;
+
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    -webkit-text-stroke: 1px #007800;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
